@@ -1,7 +1,3 @@
-Here's an example of a README in English for your project:
-
----
-
 # ATM Bot - Public Transport Updates Monitoring
 
 This project implements a bot to monitor real-time notifications related to public transportation service updates, disruptions, and schedule changes. It sends alerts on issues affecting metro and bus lines via Telegram.
