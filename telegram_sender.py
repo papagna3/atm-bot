@@ -34,6 +34,10 @@ def format_alert(alert):
 
         # Aggiungi '\t•' se una riga inizia con un numero dopo un '\n'
         alert_message = re.sub(r'\n(\d)', r'\n\t• \1', alert_message)
+
+        # Aggiungi '\t•' se una riga inizia con tram, Tram, bus o Bus dopo un '\n'
+        alert_message = re.sub(r'\n(tram|Tram|bus|Bus)', r'\n\t• \1', alert_message)
+        
         return alert_message
     return ""
 
